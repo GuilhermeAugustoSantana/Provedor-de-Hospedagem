@@ -1,0 +1,84 @@
+@import url('../styles/style.css');
+
+h1 {
+   color: var(--color-preto);
+}
+
+/*Secao topo*/
+
+.logo p {
+   color: var(--color-branco);
+   font-weight: 500;
+}
+
+nav a {
+   color: var(--color-branco);
+}
+
+nav a:hover {
+   color: var(--color-cinza-escuro);
+}
+
+/*termina secao topo*/
+
+/*Secao tabela*/
+
+table {
+   font-size: 12px;
+   text-align: center;
+   margin: 100px auto;
+}
+
+.cabecalho-tabela th:first-child {
+   visibility: hidden;
+}
+
+.celula-cabecalho {
+   padding: 20px;
+   background-color: var(--color-braco-cinza);
+}
+
+.celula-cabecalho p {
+   color: var(--color-cinza);
+   font-weight: 500;
+}
+
+.celula-cabecalho:hover {
+   color: var(--color-branco);
+   background-color: var(--color-azul);
+   cursor: pointer;
+}
+
+.linha-tabela td:first-child {
+   width: 280px;
+   font-weight: 600;
+   text-align: left;
+   background-color: var(--color-braco-cinza);
+}
+
+.linha-tabela td {
+   width: 200px;
+   padding: 20px 30px;
+   font-weight: 500;
+}
+
+.linha-tabela td,
+.celula-cabecalho {
+   border-bottom: 1px solid var(--color-braco-cinza);
+   border-right: 1px solid var(--color-braco-cinza);
+}
+
+.marcador-azul::before {
+   content: " ";
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   background-color: var(--color-azul);
+   border-radius: 100px;
+}
+
+/*termina secao tabela*/
+
+.p-rodapé {
+   margin-top: 10px;
+}
